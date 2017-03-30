@@ -24,6 +24,7 @@ H261    ITU H.261
 H262    ITU H.262
 H263    ITU H.263
 H264    ITU H.264
+HEVC    ITU H.265
 HFYU    Huffyuv
 I263    Intel H.263
 IV31    Indeo 3.1
@@ -195,6 +196,7 @@ G3[00][16]  Planar GBR, 48bpp, little-endian [NOT in AVI]
 Audio:
 3389    RFC 3389 comfort noise generator
 wvpk    WavPack
+Opus    IETF Opus
 
 Raw audio: [x] is an byte with value x,  [NOT in AVI]
 ALAW    A-LAW
