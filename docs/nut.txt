@@ -1,5 +1,5 @@
 ==================================
-NUT Open Container Format 20131223
+NUT Open Container Format 20200130
 ==================================
 
 
@@ -557,6 +557,7 @@ fourcc (vb)
     FourCC in AVI then the same FourCC MUST be used here.
     For raw video and audio, the used sample format (signed/unsigned,
     8/16/32bit, big/little endian, rgb/yuv) is indicated by the fourcc.
+    See nut4cc.txt for a list as well as a place to add new entries to.
 
 time_base_num (v) / time_base_denom (v) = time_base
     the length of a timer tick in seconds, this MUST be equal to the 1/fps
