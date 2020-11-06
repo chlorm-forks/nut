@@ -1,5 +1,5 @@
 ==================================
-NUT Open Container Format 20200130
+NUT Open Container Format 20201104
 ==================================
 
 
@@ -1038,6 +1038,13 @@ info packet types
         instead? is there some other unique way to identify fonts?
         This stream uses the specified font, if it is unavailable presentation
         might be less pretty.
+    "r_frame_rate"
+        Real base framerate of the stream.
+        This is the lowest framerate with which all timestamps can be
+        represented accurately (it is the least common multiple of all
+        framerates in the stream). Note, this value is just a guess!
+        For example, if the time base is 1/90000 and all frames have either
+        approximately 3600 or 1800 timer ticks, then r_frame_rate will be 50/1.
     Note: Nonstandard fields should be prefixed by "X-".
 
 value
